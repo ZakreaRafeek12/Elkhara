@@ -1,0 +1,151 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background: linear-gradient(#caa1bd,#10001f);
+    height: 100vh;
+    font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #000016;
+}
+header .logo{
+    font-size:30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+header ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+ header ul li{
+    margin-right: 30px;
+}
+header ul li a{
+    padding: 8px 15px;
+    border-radius: 20px;
+    list-style: none;
+    position: relative;
+}
+header ul li a:hover,.active{
+    background: #fff;
+    color: #200016;
+}
+.img-logo{
+    width: 200px;
+    height:50px;
+}.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.clearfix{
+    float:none;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.col-4{
+    display: grid;
+    width:20%;
+    grid-template-rows: auto;
+    background-color:#10001f;
+    margin-left: 30px;
+    float: left;
+    padding: 10px;
+}
+.tbl-full{
+    width:100%;
+    margin: 30px;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align:left;
+}
+.btn-priamry{
+    background-color: #10001f;
+    padding:1%;
+    color:white;
+    margin: 10px;
+    margin-left: 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight:bold;
+}
+.btn-priamry:hover{
+    background:linear-gradient(#caa1bd,transparent);
+    color:#000016
+}
+table tr td{
+    padding:1%;
+}
+.main-content{
+    background-color: linear-gradient(#caa1bd,#10001f);
+    padding:3% 0;
+    margin: 20px;
+}
+.main-content h1{
+    text-align: center;
+    color: #f36cc8;
+}
+
+.btn-secandry{
+    background-color:#d62e96;
+    padding:6px;
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    border-radius: 7px;
+}
+.btn-secandry:hover{
+    background-color:#d868b6;
+    color:#10001f;
+}
+.wrapper1 h1{
+    text-align: center;
+}
+.wrapper1 form{
+    margin: 20px;
+    height: 90%;
+    margin-bottom: 100px;
+    width: 80%;
+}
+.wrapper1 form table{
+    margin: 40px;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+   text-align:left;
+}
+table tr td{
+    padding:1%;
+}
+.tbl-30{
+    width:40%;
+    
+}
+.tbl-30 tr td{
+    padding:1%
+}
